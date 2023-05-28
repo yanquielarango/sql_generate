@@ -15,8 +15,6 @@ import CodeDisplay from "./CodeDisplay";
     const [prompt, setPrompt] = useState<string>("");
     const [chat, setChat] = useState<ChatData[]>([]);
 
-    const date = new Date();
-    const year = date.getFullYear();
 
 
     const getQuery =  async () => {
