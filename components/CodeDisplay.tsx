@@ -37,7 +37,7 @@ const CodeDisplay = ({text}: CodeDsiplayProps) => {
                 <p>{text}</p>
             </section>
 
-            <div className="  absolute  bottom-3  right-5 border-slate-100/10  border-2 rounded p-1" onClick={copyToClipboard}>
+            <div className="  absolute  bottom-2  right-2 " onClick={copyToClipboard}>
                 {
                     !copied ? <ClipboardDocumentIcon className="h-6 w-6 text-white/70 cursor-pointer"/> : <ClipboardDocumentCheckIcon className="h-6 w-6 text-white/70 cursor-pointer"/>
 
